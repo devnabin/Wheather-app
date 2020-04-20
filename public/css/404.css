@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Paaji 2', cursive;
+
+}
+
+
+.main{
+     margin-top: 40vh ;
+}
+p{
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.but{
+    text-align: right;
+    margin-right: 100px;
+}
+button{
+    font-size: 30px;
+    color: black;
+    background-color: rgba(255, 166, 0, 0.76);
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    }
+    
+
+    button:focus{
+        outline: none;
+    }

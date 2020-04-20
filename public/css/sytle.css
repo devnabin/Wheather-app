@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+body{
+    height: 1em;
+
+}
+.footerdiv{
+    background-color: blue;
+  font-size: 20px;
+  text-align: center;
+  f;
+ 
+}
+.navdiv{
+    margin-top: 30px;
+    text-align: right;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 30px;
+}
+a:hover{
+    color: orange;
+}
+
+.headername p{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.imgdiv{
+display: flex;
+justify-content: center;
+}
+.textsubdiv{
+    height: 400px;
+    width: 350px;
+    border: 1px solid black;
+    background-image:linear-gradient(to top left , rgb(6, 255, 222),rgb(255, 94, 0))
+}
+.textsubdiv p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
+.textsubdiv:hover{
+    background-image:linear-gradient(to bottom right , rgb(6, 255, 222),rgb(255, 94, 0))
+}
+.textsubdiv:hover p{
+    font-size: 33px;
+}
+img{
+    height: 400px;
+    width: 350px;
+}
+
+
+input{
+margin-left: 20px;
+border: none;
+background-color: transparent;
+font-size: 20px;
+color: white;
+}
+
+
+/* matrai*/
+.search{
+    color: white;
+    font-size: 45px;
+}
+.search:hover{
+    color: orange;
+}
+button{
+background-color: transparent;
+border: none;
+}
+
+.user{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 310px;
+    border-color: black;
+    border-radius: 20px;
+}
+
+
+button , input:focus{
+outline: none;
+color: white;
+}
+.user input::placeholder{
+        color: white;
+}
+
+button{
+    margin-left: 10px;
+}
+
+.addressp{
+    margin-top: 30px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.weatherp{
+    font-size: 30px;
+}
